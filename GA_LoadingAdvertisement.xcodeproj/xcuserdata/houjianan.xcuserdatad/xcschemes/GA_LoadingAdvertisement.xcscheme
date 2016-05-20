@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DC7933701CEF01EA0061F43C"
+               BuildableName = "GA_LoadingAdvertisement.app"
+               BlueprintName = "GA_LoadingAdvertisement"
+               ReferencedContainer = "container:GA_LoadingAdvertisement.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DC7933841CEF01EA0061F43C"
+               BuildableName = "GA_LoadingAdvertisementTests.xctest"
+               BlueprintName = "GA_LoadingAdvertisementTests"
+               ReferencedContainer = "container:GA_LoadingAdvertisement.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DC79338F1CEF01EA0061F43C"
+               BuildableName = "GA_LoadingAdvertisementUITests.xctest"
+               BlueprintName = "GA_LoadingAdvertisementUITests"
+               ReferencedContainer = "container:GA_LoadingAdvertisement.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DC7933701CEF01EA0061F43C"
+            BuildableName = "GA_LoadingAdvertisement.app"
+            BlueprintName = "GA_LoadingAdvertisement"
+            ReferencedContainer = "container:GA_LoadingAdvertisement.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DC7933701CEF01EA0061F43C"
+            BuildableName = "GA_LoadingAdvertisement.app"
+            BlueprintName = "GA_LoadingAdvertisement"
+            ReferencedContainer = "container:GA_LoadingAdvertisement.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DC7933701CEF01EA0061F43C"
+            BuildableName = "GA_LoadingAdvertisement.app"
+            BlueprintName = "GA_LoadingAdvertisement"
+            ReferencedContainer = "container:GA_LoadingAdvertisement.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
